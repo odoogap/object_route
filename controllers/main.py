@@ -19,7 +19,6 @@ class Website(http.Controller):
         if res_id:
             params.update({'id': res_id})
             params.update({'view_type': 'form'})
-        print params
         url = '/web#%s' % url_encode(params)
         return werkzeug.utils.redirect(url)
 
