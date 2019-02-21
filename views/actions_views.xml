@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record model="ir.actions.act_window" id="crm.crm_lead_opportunities_tree_view">
+        <field name="in_route">leads</field>
+    </record>
+
+</odoo>
