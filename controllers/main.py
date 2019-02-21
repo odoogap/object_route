@@ -28,6 +28,9 @@ class Website(http.Controller):
     def object_in_route(self, in_route, res_id=False, **kw):
         # action_id = request.env.ref('crm.crm_lead_opportunities_tree_view', raise_if_not_found=False)
         ensure_db()
-        action_id = request.env['ir.actions.act_window'].search([
+        action_id = request.env['ir.actions.act_window'].sudo().search([
             ('in_route', '=', in_route)], limit=1)
-        return self._redirect_to_view(action_id, res_id)
+        if action_id:
+            return self._redirect_to_view(action_id, res_id)
+        else:
+            return werkzeug.utils.redirect('/web/login?error=access')
