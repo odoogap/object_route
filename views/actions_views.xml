@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <record model="ir.actions.act_window" id="crm.crm_lead_opportunities_tree_view">
+    <record model="ir.actions.act_window" id="crm.crm_lead_action_pipeline">
         <field name="in_route">leads</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="sale.action_orders">
+        <field name="in_route">orders</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="contacts.action_contacts">
+        <field name="in_route">contacts</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="account.action_move_out_invoice_type">
+        <field name="in_route">invoices</field>
     </record>
 
 </odoo>
