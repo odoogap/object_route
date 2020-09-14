@@ -1,26 +1,16 @@
-# -*- coding: utf-8 -*-
 {
-    'name': "Odoo Object Direct Routes",
-
-    'summary': """
-        Allows you to use direct object routes.""",
+    'name': "Object Routes",
     'version': '1.1',
-
-    'description': """
-        Using Direct Object Routes
-    """,
-
-    'author': "Diogo Duarte",
-    'website': "http://diogocduarte.github.io/",
+    'summary': """Odoo Object Direct Routes""",
+    'description': """Allows you to use direct object routes.""",
     'category': 'Uncategorized',
-    'version': '0.1',
-    'depends': ['base', 'crm'],
-    'auto_install': True,
-    'external_dependencies': {
-        'python': [],
-    },
-    'data': [
-        'views/actions_views.xml'
-    ],
-    'installable': True
+    'author': "Odoogap",
+    'licence': 'LGPL-3',
+    'website': "https://www.odoogap.com",
+    'images': ['images/main_screenshot.png'],
+    'depends': ['base', 'crm', 'sale_management', 'contacts', 'account'],
+    'data': ['views/actions_views.xml'],
+    'installable': True,
+    'auto_install': False,
+    'support': 'info@odoogap.com'
 }
