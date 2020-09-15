@@ -8,7 +8,7 @@
     'licence': 'LGPL-3',
     'website': "https://www.odoogap.com",
     'images': ['images/main_screenshot.png'],
-    'depends': ['base', 'crm', 'sale_management', 'contacts', 'account'],
+    'depends': ['base', 'crm', 'sale', 'contacts', 'account'],
     'data': ['views/actions_views.xml'],
     'installable': True,
     'auto_install': False,
