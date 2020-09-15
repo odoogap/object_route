@@ -5,4 +5,16 @@
         <field name="in_route">leads</field>
     </record>
 
+    <record model="ir.actions.act_window" id="sale.action_orders">
+        <field name="in_route">orders</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="contacts.action_contacts">
+        <field name="in_route">contacts</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="account.action_invoice_tree1">
+        <field name="in_route">invoices</field>
+    </record>
+
 </odoo>
