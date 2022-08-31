@@ -35,7 +35,7 @@ See it in action: [here](https://twitter.com/diogormcduarte/status/1098703437611
 
 ## Support
 
-To report a problem please [contact us](https://www.odoogap.com/page/contactus/).
+To report a problem please [contact us](https://www.erpgap.com/page/contactus/).
 
-Commercial support is available, please email [info@odoogap.com](info@odoogap.com)
+Commercial support is available, please email [info@erpgap.com](info@erpgap.com)
 or call tel:+44 7480 538242 for further information.
